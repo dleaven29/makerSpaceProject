@@ -1,0 +1,601 @@
+html,body{
+	font:12px;
+	overflow-x:hidden;
+	max-width:100%;
+	font-family:Helvetica;
+}
+
+/*Header Section*/
+
+header{
+	background-color:#003A5C;
+	width:100%;
+}
+
+header .adjust{
+	height:15rem;
+	width:100%;
+}
+
+ #placeLogo{
+	width:10rem;
+	height:8rem;
+}
+#placeLogo > img{
+	width:100%;
+	height:100%;
+}
+.makerTitle{
+	color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:45%;
+	
+}
+.bootMobile{
+	display:none;
+}
+
+nav{
+	width:100%;
+	padding-bottom:.5rem;
+}
+
+ nav > ul{
+	width:100%;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+nav ul li{
+	
+}
+nav ul li >a {
+text-decoration:none;
+color:white;
+font-size:1.35rem;	
+}
+nav ul li >a:hover{
+text-decoration:underline;
+color:white;
+}
+
+/*Main Section*/
+/*Makerspace Home Page Styles*/
+main{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	width:100%;
+}
+
+.content{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	padding:0.5rem 0.5rem;
+}
+.halfContent{
+	width:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+ .text{
+	border:3px solid black;
+	height:100%;
+	background-color:#DEDBD8;
+	border-radius:10px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	transition:border 2s ease-in 0.5s,background-color 2s ease-in 0.5s,
+	color 3s ease-in 0.5s;
+}
+.text:hover{
+	border:3px solid #DEDBD8;
+	background-color:#003A5C;
+	color:white;
+}
+
+.text > h1{
+	font-size:1.34rem;
+	padding-bottom:0.5rem;
+	text-align:center;
+}
+.text > p{
+	font-size:1.08rem;
+}
+
+
+ .photo{
+	height:20rem;
+	width:20rem;
+}
+.photo > img{
+	width:100%;
+	height:100%;
+}
+#lastContent{
+    margin-bottom:0.5rem;	
+	
+}
+#bottomText{
+	display:flex;
+    justify-content:center;
+}
+
+#bottomText h1 >a{
+	text-decoration:none;
+	color:black;
+	font-size:1.34rem;
+}
+#bottomText h1 > a:hover{
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+#tccVideo {
+	width:100%;
+}
+
+#tccVideo iframe{
+	max-width:100%;
+}
+
+/*Makerspace Equipment Page*/
+main#equipment{
+	
+}
+.box{
+	width:100%;
+	display:flex;
+	padding:0.5rem 0.5rem;
+}
+.divideBox{
+	width:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.boxContent{
+	border:3px solid black;
+	height:100%;
+	text-align:center;
+	background-color:#DEDBD8;
+	border-radius:10px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	transition:border 2s ease-in 0.5s,background-color 2s ease-in 0.5s,
+	color 3s ease-in 0.5s;
+}
+.boxContent:hover{
+	border:3px solid #DEDBD8;
+	background-color:#003A5C;
+	color:white;
+}
+.boxContent h1{
+	font-size:1.34rem;
+	margin:.5rem .5rem;
+}
+.boxContent p{
+	text-align:left;
+	margin-left:0.5rem;
+	font-size:1.08rem;
+}
+.boxImage{
+	width:20rem;
+	height:20rem;	
+}
+
+.boxImage >img{
+	width:100%;
+	height:100%;
+}
+
+
+/*Makerspace Events Page*/
+main#events{
+
+}
+.container{
+	width:100%;
+}
+.repositionTitle{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	padding:1rem 1rem;
+	font-size:1.2rem;
+	text-align:center;
+}
+.repositionTitle h1{
+	text-decoration:underline;
+}
+.repositionTitle h2{
+	color:red;
+}
+.table-responsive{
+	width:100%;
+}
+table{
+	width:100%;
+}
+thead tr th{
+	text-align:center;
+	font-weight:bold;
+}
+ tbody tr >td{
+	 text-align:center;
+ }
+ tr td >span.updates{
+	 color:red;
+ }
+ /*Unordered list for Events Page*/
+ .mobileEvents{
+	 border:1px solid black;
+	 display:flex;
+	 justify-content:space-around;
+ }
+ .divideEvents{
+	 border:1px solid black;
+	 width:35%;	
+ }
+ .divideEvents ul li{
+	 font-size:1.08rem;
+ }
+ .divideEvents ul li >span.darkDate{
+	 font-size:1.15rem;
+	font-weight:bold;
+ }
+ .updates{
+	 color:red;
+ }
+ 
+ /*Projects Page*/
+ main#projects{
+	 width:100%;  
+ }
+ div#myCarousel{
+	margin:3rem 3rem;
+ }
+ 
+ .item > img{
+	 width:100%;
+	 height:100%;
+ }
+ /*Club Page */
+#club{
+	
+}
+.clubTitle{
+	font-size:1.5rem;
+	padding-top:1rem;
+	margin-bottom:0.5rem;
+}
+.clubBox{
+	width:100%;
+	display:flex;
+	margin-bottom:0.5rem;
+}
+.clubDivide{
+	width:50%;
+	display:flex;
+	justify-content:center;
+}
+.clubDivide>.clubText{
+	border:3px solid black;
+	height:100%;
+	background-color:#DEDBD8;
+	border-radius:10px;
+	transition:border 2s ease-in 0.5s,background-color 2s ease-in 0.5s,
+	color 3s ease-in 0.5s;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+     	
+}
+.clubText:hover{
+	border:3px solid #DEDBD8;
+	background-color:#003A5C;
+	color:white;
+}
+.clubDivide .clubText >.activityTitle{
+	display:flex;
+	justify-content:center;
+	margin-bottom:0.5rem;
+}
+.activityTitle h2{
+	font-size:1.34rem;
+}
+.clubText p{
+	font-size:1.08rem;
+}
+.clubDivide > .clubPic{
+	
+}
+.clubDivide .clubPic >img{
+	width:100%;
+	height:100%;
+}
+/*Contacts Page*/
+#contacts{
+	
+}
+.contactsBox{
+	width:100%;
+	display:flex;
+	margin:0.5rem 0.5rem;
+}
+.contactsDivide{
+	width:50%;
+	display:flex;
+	justify-content:center;
+}
+.contactsText{
+	border:3px solid black;
+	width:85%;
+	height:100%;
+	background-color:#DEDBD8;
+	border-radius:10px;
+	transition:border 2s ease-in 0.5s,background-color 2s ease-in 0.5s,
+	color 3s ease-in 0.5s;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.contactsText:hover{
+	border:3px solid #DEDBD8;
+	background-color:#003A5C;
+	color:white;
+}
+
+.contactsTitle{
+	display:flex;
+	justify-content:center;
+	margin-bottom:0.5rem;
+}
+.contactsTitle >h1{
+	font-size:1.34rem;
+}
+.contactsText ul{
+	font-size:1.08rem;
+}
+.underlineContacts{
+	text-decoration:underline;
+}
+.contactsPic{
+	
+} 
+.contactsPic >img{
+	width:100%;
+	height:100%;
+}
+
+/*Footer Section*/
+#footer{
+width:100%;
+background-color:#003A5C;
+color:white;
+padding-bottom:1.5rem;	
+}
+
+
+.category{
+	display:flex;
+	justify-content:center;
+	padding:1.5rem 1.5rem;
+}
+.category >h1{
+	text-decoration:underline;
+	font-size:1.34rem;
+	text-align:center;
+}
+
+.clubInfo > ul{
+	display:flex;
+	justify-content:space-around;
+	font-size:1.2rem;
+	text-align:center;
+}
+
+#socialMediaLogo{
+	display:flex;
+	justify-content:flex-end;
+	padding-top:.5rem;
+	padding-right:1.5rem;
+}
+#socialMediaLogo a{
+	color:white;
+}
+
+/*Media Queries*/
+@media screen and (max-width:480px){
+	/*Affects all pages in the header section*/
+	.makerTitle{
+		display:flex;
+		flex-direction:column-reverse;
+		align-items:center;
+		justify-content:space-around;
+	}
+	.makerTitle > .bootMobile{
+		display:block;
+	}
+	.makerTitle h1{
+		font-size:1.5rem;
+		text-align:center;
+	}
+	nav{
+		display:none;
+	}
+	nav ul li >a {
+     font-size:1.2rem;	
+    }
+	/*Home page*/
+	.content{
+		display:flex;
+		flex-direction:column-reverse;
+	}
+	.halfContent{
+		width:100%;
+	}
+	 .text{
+		width:100%;
+	}
+	.photo{
+		width:100%;
+	}
+	/*Equipment page*/
+	.box{
+		display:flex;
+		flex-direction:column-reverse;
+		align-items:center;
+		justify-content:center;
+	}
+	.divideBox{
+		width:100%;
+	}
+	.boxContent{
+	  width:100%;
+	}
+	.boxImage{
+		width:100%;
+	}
+	/*Events Page*/
+	.table-responsive{
+		display:none;
+	}
+	.mobileEvents{
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+	}
+	.divideEvents{
+		width:100%;	
+	}
+
+	/*Club Page*/
+	.clubBox{
+		display:flex;
+		flex-direction:column-reverse;
+		align-items:center;
+	}
+	.clubDivide{
+		width:100%;
+	}
+	.clubText{
+		width:100%;
+	}
+	.clubPic{
+	  width:100%;
+	}
+	/*Contacts Page*/
+	.contactsBox{
+		display:flex;
+		flex-direction:column-reverse;
+		align-items:center;
+	}
+	.contactsDivide{
+		width:100%;
+	}
+	.contactsText{
+		width:100%;
+	}
+	.contactsPic{
+		width:100%;
+	}
+	/*Affects all pages in the footer section for smartphones*/
+	.clubInfo ul{
+		display:flex;
+		flex-direction:column;	
+		align-items:center;
+	}	
+}
+
+@media screen and (max-width:768px){
+	/*Affects all pages in the header section*/
+	.makerTitle h1{
+		font-size:2.3rem;
+	}
+	/*Home page*/
+	.text{
+		width:97.5%;
+	}
+	/*Equipment page for tablets*/
+	.boxContent{
+		width:100%;
+		padding-right:0.5rem;
+	}
+	/*Events Page*/
+	.table-responsive{
+		display:none;
+	}
+	
+	.divideEvents{
+		width:100%;
+		
+	}
+	/*Club Page*/
+	.clubText{
+		width:100%;
+	}
+	/*Contacts Page*/
+	.contactsText{
+		width:100%;
+	}
+	
+	/*Affects all pages in the footer section for tablets*/	
+	.clubInfo ul{
+		display:flex;
+		flex-direction:column;	
+		align-items:center;
+	}	
+	
+}
+@media screen and (min-width:769px){
+	/*Affects all pages in the header section*/
+	.makerTitle h1{
+		font-size:4rem;
+	}
+	/*Home page*/
+	.text{
+		width:85%;
+	}
+	/*Equipment page for desktops*/
+	.boxContent{
+		width:85%;
+		margin-left:0.5rem;
+	}
+	/*Events Page and Updates Page*/
+	.mobileEvents{
+		display:none;
+	}
+	/*Projects Page*/
+	.carousel-inner{
+		width:40rem;
+		height:30rem;
+	}
+	/*Club Page*/
+	.clubText{
+		width:85%;
+	}
+	.clubPic{
+	width:20rem;
+	height:20rem;
+	}
+	/*Contacts Page*/
+	
+	.contactsPic{
+		width:20rem;
+		height:20rem;
+	}
+}
+
+
+
